@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- recycleView Item -->
+    <dimen name="recycleViewItem_imageWidth">120dp</dimen>
+    <dimen name="recycleViewItem_imageHeight">80dp</dimen>
+    <dimen name="recycleViewItem_textSize">15sp</dimen>
+    <dimen name="recycleViewItem_imageMarginStart">24dp</dimen>
+    <dimen name="recycleViewItem_imageMarginEnd">24dp</dimen>
+    <dimen name="recycleViewItem_imageMarginTop">12dp</dimen>
+    <dimen name="recycleViewItem_imageMarginBottom">12dp</dimen>
+
+</resources>

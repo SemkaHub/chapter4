@@ -19,7 +19,7 @@ class SplashActivity : AppCompatActivity() {
     }
 
     private fun switchSplashScreen() {
-        val duration: Long = 2000
+        val duration: Long = 500
         Handler().postDelayed(
             {
                 val intent = Intent(this, MainActivity::class.java)
