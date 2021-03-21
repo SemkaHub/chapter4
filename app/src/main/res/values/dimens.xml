@@ -8,5 +8,8 @@
     <dimen name="recycleViewItem_imageMarginEnd">24dp</dimen>
     <dimen name="recycleViewItem_imageMarginTop">12dp</dimen>
     <dimen name="recycleViewItem_imageMarginBottom">12dp</dimen>
-
+    <dimen name="recycleViewItem_layoutMarginStart">8dp</dimen>
+    <dimen name="recycleViewItem_layoutMarginEnd">8dp</dimen>
+    <dimen name="recycleViewItem_layoutMarginBottom">4dp</dimen>
+    <dimen name="recycleViewItem_layoutMarginTop">4dp</dimen>
 </resources>

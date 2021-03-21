@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:background="@color/colorRecycleViewItemBackground">
+    android:layout_marginStart="@dimen/recycleViewItem_layoutMarginStart"
+    android:layout_marginTop="@dimen/recycleViewItem_layoutMarginTop"
+    android:layout_marginEnd="@dimen/recycleViewItem_layoutMarginEnd"
+    android:layout_marginBottom="@dimen/recycleViewItem_layoutMarginBottom"
+    android:background="@color/colorRecycleViewItemBackground"
+    android:orientation="vertical">
 
     <ImageView
-        android:layout_width="@dimen/recycleViewItem_imageWidth"
-        android:layout_height="@dimen/recycleViewItem_imageHeight"
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
         android:layout_marginStart="@dimen/recycleViewItem_imageMarginStart"
         android:layout_marginTop="@dimen/recycleViewItem_imageMarginTop"
         android:layout_marginEnd="@dimen/recycleViewItem_imageMarginEnd"
-        android:layout_marginBottom="@dimen/recycleViewItem_imageMarginBottom" />
+        android:layout_marginBottom="@dimen/recycleViewItem_imageMarginBottom"
+        android:layout_weight="1" />
 
     <TextView
+        android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:textSize="@dimen/recycleViewItem_textSize"
+        android:layout_marginBottom="@dimen/recycleViewItem_imageMarginTop"
+        android:fontFamily="@font/officinasansextrabold"
         android:textColor="@color/colorRecycleViewItemText"
-        android:fontFamily="@font/officinasansextrabold"/>
+        android:textSize="@dimen/recycleViewItem_textSize" />
 
 </LinearLayout>

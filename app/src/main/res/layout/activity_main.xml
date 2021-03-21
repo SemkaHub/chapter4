@@ -17,21 +17,26 @@
             android:text="@string/text_categories" />
     </Toolbar>
 
-    <FrameLayout
+    <TextView
+        style="@style/Category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/helpScreenMessage" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycleView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="0dp"
             android:elevation="0dp"
             app:layout_constraintBottom_toTopOf="@+id/linearLayout"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-        </androidx.recyclerview.widget.RecyclerView>
+            app:layout_constraintTop_toTopOf="parent" />
 
         <!-- Помочь -->
         <LinearLayout
@@ -40,13 +45,18 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|bottom"
             android:elevation="2dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/recycleView"
+            app:layout_constraintVertical_bias="1.0">
 
             <FrameLayout
                 android:id="@+id/frame_heart"
-                android:background="@drawable/simicircle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:background="@drawable/simicircle">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -72,7 +82,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:elevation="1dp">
+            android:background="@color/white"
+            android:elevation="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
 
             <View
                 android:layout_width="match_parent"
@@ -183,6 +197,5 @@
             </LinearLayout>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-    </FrameLayout>
-
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

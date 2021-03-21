@@ -7,4 +7,5 @@
     <string name="bnmHelp">Помочь</string>
     <string name="bnmHistory">История</string>
     <string name="bnmProfile">Профиль</string>
+    <string name="helpScreenMessage">Выберите категорию помощи</string>
 </resources>
