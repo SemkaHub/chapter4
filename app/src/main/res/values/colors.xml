@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
+    <color name="colorPrimary">#FF66A636</color>
+    <color name="colorPrimaryDark">#FF66A636</color>
+    <color name="colorAccent">#FF660036</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="splashScreenBackground">#FFEFF3F6</color>
+    <color name="bnmColorNews">#FF7DB354</color>
+    <color name="bnmColorCircle">#FFFE7460</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorShadow">#FFE1E1E1</color>
+    <color name="colorRecycleViewItemBackground">#FFEAEDE8</color>
+    <color name="colorRecycleViewItemText">#FF9EBF50</color>
 </resources>

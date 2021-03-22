@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Хочу помочь</string>
+    <string name="text_loading">Загрузка…</string>
+    <string name="text_categories">Помочь</string>
+    <string name="bnmNews">Новости</string>
+    <string name="bnmSearch">Поиск</string>
+    <string name="bnmHelp">Помочь</string>
+    <string name="bnmHistory">История</string>
+    <string name="bnmProfile">Профиль</string>
+    <string name="helpScreenMessage">Выберите категорию помощи</string>
 </resources>
